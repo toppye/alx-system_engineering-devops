@@ -5,5 +5,5 @@ file { '/tmp/school':
   owner          => 'www-data',
   group          => 'www-data',
   content        => 'I love Puppet\n',
-  ensure_newline => true,
+  ensure_newline => true
 }
